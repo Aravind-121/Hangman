@@ -13,7 +13,7 @@ export default initVal => {
             if(helper.size===queSet.size){
                 hasWon = true;
             }
-            ////////////---------------
+         
             if(!ques.includes(e)) wrongCtr += 1;
 
             let changeState = {...states,userGuess,wrongCtr,hasWon};
